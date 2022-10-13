@@ -15,8 +15,11 @@ describe('helloWorld', function() {
 });
 describe("hello", function(){
     it("should return a defined function", function(){
-        expect(sayHello()).toBe("hello")
+        expect(sayHello()).toBe("hello");
     })
+    it("should return a string when called", function(){
+        expect(typeof sayHello()).toBe("string");
+    });
 })
 
 /* only have one test per spec!
