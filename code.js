@@ -3,17 +3,22 @@ function helloWorld() {
     return "Hello, World!";
 }
 
-function sayHello(name) {
-    if(name === "Jane"){
+function sayHello(input) {
+    if (input === true){
+        return "Hello, !"
+    }if(input === "Jane"){
         return"Hello, Jane!"
-    }else if (name === "Alex"){
+    }else if (input === "Alex"){
         return "Hello, Alex!";
-    }else if (name === "Pat"){
+    }else if (input === "Pat"){
         return"Hello, Pat!";
     }else{
         return "Hello";
     }
+
 }
+
+
 
 
 
