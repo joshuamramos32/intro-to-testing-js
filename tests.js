@@ -28,9 +28,10 @@ describe("Hello", function(){
     });it('should return the string "Hello, Pat!"', function(){
         expect(sayHello("Pat")).toBe("Hello, Pat!")
     });
-    it('should return the string "Hello" + name"!"', function(){
-        expect(sayHello(true)).toBe("Hello, !");
-    })
+    it('should return the string "Hello, World!"', function() {
+        expect(sayHello("Hello, World!")).toBe("Hello, World!");
+    });
+
 })
 
 /* only have one test per spec!
