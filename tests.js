@@ -31,6 +31,12 @@ describe("Hello", function(){
     it('should return the string "Hello, World!"', function() {
         expect(sayHello("Hello, World!")).toBe("Hello, World!");
     });
+    it('should return the string "Hello, World!"', function(){
+        expect(sayHello(true)).toBe("Hello, World!")
+    });
+    it('should return the string "Hello, World" if false', function(){
+        expect(sayHello(false)).toBe("Hello, World!")
+    })
 
 })
 
